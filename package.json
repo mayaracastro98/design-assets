@@ -1,0 +1,23 @@
+{
+  "name": "@mayaracastro98/dsc-assets",
+  "version": "1.0.2",
+  "description": "Biblioteca de Assets para o Curso de Design System in Code da Meiuca",
+  "main": "index.js",
+  "author": "Mayara Castro - Meiuca",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mayaracastro98/design-assets.git"
+  },
+  "files": [
+    "dist",
+    "src/assets"
+  ],
+  "scripts": {
+    "build": "rimraf dist && node src/build.js"
+  },
+  "devDependencies": {
+    "fs-extra": "^4.0.1",
+    "rimraf": "^3.0.2"
+  }
+}
